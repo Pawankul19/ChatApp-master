@@ -2,6 +2,6 @@ import React from 'react'
 
 export const List = () => {
   return (
-    <div>list</div>
+    <div className='ListArea'>list</div>
   )
 }
