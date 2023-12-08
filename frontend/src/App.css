@@ -16,15 +16,14 @@ nav{
   background-color: #527072;
   transition: all 0.6s ease-in-out;
 }
-nav:hover{
-width: 100px;
-}
+
 .listItems{
   list-style: none;
   margin: 20px 10px;
   padding: 10px;
   border-radius: 20px;
   transition: all 0.6s ease-in-out;
+  color: white;
 }
 .listItems:hover{
   background-color: rgb(229, 229, 229);
