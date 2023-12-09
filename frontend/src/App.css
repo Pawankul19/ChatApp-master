@@ -6,6 +6,9 @@
   padding:30px;
   height: 100vh;
 }
+.flex1{
+  flex: 1;
+}
 
 /*Navbar*/
 
