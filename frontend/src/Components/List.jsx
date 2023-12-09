@@ -163,7 +163,7 @@ export const List = () => {
       {data.map((num)=>{
         console.log(num.first_name)
         return (
-      <ListItems username={num.first_name} image={num.profile_picture} last_message={num.last_message}  time={num.time} />
+          <ListItems username={num.first_name} image={num.profile_picture} last_message={num.last_message}  time={num.time} />
         )
       })}
       </div>

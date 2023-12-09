@@ -1,6 +1,6 @@
 
 .ListArea{
-    width: 500px;
+    width: 400px;
     height:100%;
     border-left: 1px solid #CCDAE1;
 }
@@ -29,10 +29,14 @@
 }
 .ProfileItems img{
     aspect-ratio: 1/1;
-    width: 70px;
+    width: 50px;
     border-radius: 50px;
 }
 
 .name_area{
     flex:1;
+}
+.name_area h3 {
+    font-weight: 800;
+    font-size: 16px;
 }
