@@ -32,3 +32,7 @@
     width: 70px;
     border-radius: 50px;
 }
+
+.name_area{
+    flex:1;
+}
