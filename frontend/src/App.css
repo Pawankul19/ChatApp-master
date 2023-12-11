@@ -3,7 +3,7 @@
 .App{
   display: flex;
   width:100vw;
-  padding:30px;
+  /* padding:30px; */
   height: 100vh;
 }
 .flex1{
@@ -92,16 +92,26 @@ nav{
 .LoginBox{
   padding: 40px;
   border-radius: 20px;
-  box-shadow: 19px 10px 35px 20px rgb(175, 174, 174);
+  box-shadow: 8px 10px 35px 20px rgb(175, 174, 174);
+  background: rgba(255, 255, 255, 0.723);
+  backdrop-filter: blur(10px);
 }
-
+.backgroundimage{
+  background-image: url("./assets/images/background.jpg");
+  background-size: cover;
+}
 .login{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   width: 100vw;
+  background-color: rgba(0, 0, 0, 0.413);
+  backdrop-filter: blur(3px);
+  height: 100vh;
 }
-
+.textwhite{
+  color: white;
+}
 .BlueButton{
   background-color: blue;
     padding: 6px 120px;
@@ -115,4 +125,7 @@ nav{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.borderbottom{
+  border-bottom: 3px solid rgb(255, 255, 255);
 }

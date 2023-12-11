@@ -10,7 +10,6 @@ import { Chat  } from "./Components/Chat";
 import Details from './Components/Details'
 import Login from './pages/Login'
 
-
 function App() {
   const [count, setCount] = useState(0)
   // Personalized Instant Connectivity Option
