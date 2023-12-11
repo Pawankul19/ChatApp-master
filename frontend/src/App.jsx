@@ -8,6 +8,7 @@ import { Navbar } from "./Components/Navbar";
 import { List } from './Components/list'
 import { Chat  } from "./Components/Chat";
 import Details from './Components/Details'
+import Login from './pages/Login'
 
 
 function App() {
@@ -16,10 +17,10 @@ function App() {
   return (
     <>
       <div className='App'>
-        <Navbar/>
+      {/*  <Navbar/>
         <List/>
-        <Chat/>
-        {/* <Details/> */}
+        <Chat/> */}
+        <Login/>
       </div>
     </>
 

@@ -67,3 +67,52 @@ nav{
 .visible{
   display: block;
 }
+
+.GoogleButton{
+  border: 1px solid black;
+  padding: 7px 58px;
+  margin-top: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(42, 41, 41);
+  color: white;
+}
+
+.SignupInput{
+  border: 1px solid rgb(150, 148, 148);
+  outline: none;
+  border-radius: 26px;
+  padding: 10px;
+  width: 278px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  background-color: transparent !important;
+}
+
+.LoginBox{
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 19px 10px 35px 20px rgb(175, 174, 174);
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.BlueButton{
+  background-color: blue;
+    padding: 6px 120px;
+    border-radius: 20px;
+    margin-top: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.centerDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
