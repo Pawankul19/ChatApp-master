@@ -12,14 +12,14 @@ import Details from './Components/Details'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  // Personalized Instant Connectivity Option
   return (
     <>
       <div className='App'>
-        {/* <Navbar/>
+        <Navbar/>
         <List/>
-        <Chat/> */}
-        <Details/>
+        <Chat/>
+        {/* <Details/> */}
       </div>
     </>
 

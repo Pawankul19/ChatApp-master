@@ -44,3 +44,26 @@ nav{
   border-left: 1px solid #CCDAE1;
 }
 
+.bigProfile{
+  aspect-ratio: 1/1;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid #527072;
+}
+.mymodal{
+  height: 350px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow:6px 15px 27px #527072;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: white;
+  display: none;
+}
+.visible{
+  display: block;
+}
