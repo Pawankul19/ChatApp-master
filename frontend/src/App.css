@@ -111,6 +111,7 @@ nav{
 }
 .textwhite{
   color: white;
+  cursor: pointer;
 }
 .BlueButton{
   background-color: blue;
